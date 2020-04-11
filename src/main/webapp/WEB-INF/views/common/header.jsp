@@ -13,7 +13,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>ewsd</title>
+  <title>Instra</title>
 
   <!-- Custom fonts for this template-->
   <link href="${pageContext.request.contextPath }/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -37,7 +37,7 @@
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3"> QA Board</div>
+        <div class="sidebar-brand-text mx-3"> Instra</div>
       </a>
 
       <!-- Divider -->
@@ -50,90 +50,94 @@
           <span>Dashboard</span></a>
       </li>
 
-      <!-- Divider -->
-      <hr class="sidebar-divider">
+<%--      <!-- Divider -->--%>
+<%--      <hr class="sidebar-divider">--%>
 
-      <!-- Heading -->
-      <div class="sidebar-heading">
-        Admin
-      </div>
+<%--      <!-- Heading -->--%>
+<%--      <div class="sidebar-heading">--%>
+<%--        Admin--%>
+<%--      </div>--%>
 
-      <!-- Nav Item - Pages Collapse Menu -->
-       <li class="nav-item">
-        <a class="nav-link collapsed" href="#">
-          <i class="fas fa-users fa-folder"></i>
-          <span>Manage User</span>
-        </a>
-       
-      </li>
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-          <i class="fas fa-fw fa-cog"></i>
-          <span>Manage Batch</span>
-        </a>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item" href="">Add Batch</a>
-            <a class="collapse-item" href="">Show All </a>
-          </div>
-        </div>
-      </li>
+<%--      <!-- Nav Item - Pages Collapse Menu -->--%>
+<%--       <li class="nav-item">--%>
+<%--        <a class="nav-link collapsed" href="#">--%>
+<%--          <i class="fas fa-users fa-folder"></i>--%>
+<%--          <span>Manage User</span>--%>
+<%--        </a>--%>
+<%--       --%>
+<%--      </li>--%>
+<%--      <li class="nav-item">--%>
+<%--        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">--%>
+<%--          <i class="fas fa-fw fa-cog"></i>--%>
+<%--          <span>Manage Batch</span>--%>
+<%--        </a>--%>
+<%--        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">--%>
+<%--          <div class="bg-white py-2 collapse-inner rounded">--%>
+<%--            <a class="collapse-item" href="">Add Batch</a>--%>
+<%--            <a class="collapse-item" href="">Show All </a>--%>
+<%--          </div>--%>
+<%--        </div>--%>
+<%--      </li>--%>
 
-      <!-- Nav Item - Utilities Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-          <i class="fas fa-fw fa-wrench"></i>
-          <span>Manage Department</span>
-        </a>
-        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">    
-            <a class="collapse-item" href="#">Add Department</a>
-            <a class="collapse-item" href="#">Show All</a>
-          
-          </div>
-        </div>
-      </li>
-   <li class="nav-item">
-        <a class="nav-link" href="">
-          <i class="fas fa-fw fa-table"></i>
-          <span>Set Terms And Conditions</span></a>
-      </li>
-      <!-- Divider -->
-      <hr class="sidebar-divider">
+<%--      <!-- Nav Item - Utilities Collapse Menu -->--%>
+<%--      <li class="nav-item">--%>
+<%--        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">--%>
+<%--          <i class="fas fa-fw fa-wrench"></i>--%>
+<%--          <span>Manage Department</span>--%>
+<%--        </a>--%>
+<%--        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">--%>
+<%--          <div class="bg-white py-2 collapse-inner rounded">    --%>
+<%--            <a class="collapse-item" href="#">Add Department</a>--%>
+<%--            <a class="collapse-item" href="#">Show All</a>--%>
+<%--          --%>
+<%--          </div>--%>
+<%--        </div>--%>
+<%--      </li>--%>
+<%--   <li class="nav-item">--%>
+<%--        <a class="nav-link" href="${pageContext.request.contextPath}/terms_and_conditions">--%>
+<%--          <i class="fas fa-fw fa-table"></i>--%>
+<%--          <span>Set Terms And Conditions</span></a>--%>
 
-      <!-- Heading -->
-      <div class="sidebar-heading">
-        QA Manager
-      </div>
 
-      <!-- Nav Item - Pages Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
-          <i class="fas fa-fw fa-folder"></i>
-          <span>Manage Category</span>
-        </a>
-        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-           
-            <a class="collapse-item" href="#">Add Category</a>
-            <a class="collapse-item" href="#">Show All</a>
-          </div>
-        </div>
-      </li>
+<%--      </li>--%>
 
-      <!-- Nav Item - Charts -->
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-          <i class="fas fa-fw fa-chart-area"></i>
-          <span>Manage Issue</span></a>
-      </li>
 
-      <!-- Nav Item - Tables -->
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-          <i class="fas fa-fw fa-table"></i>
-          <span>Download Backup File</span></a>
-      </li>
+<%--      <!-- Divider -->--%>
+<%--      <hr class="sidebar-divider">--%>
+
+<%--      <!-- Heading -->--%>
+<%--      <div class="sidebar-heading">--%>
+<%--        QA Manager--%>
+<%--      </div>--%>
+
+<%--      <!-- Nav Item - Pages Collapse Menu -->--%>
+<%--      <li class="nav-item">--%>
+<%--        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">--%>
+<%--          <i class="fas fa-fw fa-folder"></i>--%>
+<%--          <span>Manage Category</span>--%>
+<%--        </a>--%>
+<%--        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">--%>
+<%--          <div class="bg-white py-2 collapse-inner rounded">--%>
+<%--           --%>
+<%--            <a class="collapse-item" href="#">Add Category</a>--%>
+<%--            <a class="collapse-item" href="#">Show All</a>--%>
+<%--          </div>--%>
+<%--        </div>--%>
+<%--      </li>--%>
+
+<%--      <!-- Nav Item - Charts -->--%>
+<%--      <li class="nav-item">--%>
+<%--        <a class="nav-link" href="#">--%>
+<%--          <i class="fas fa-fw fa-chart-area"></i>--%>
+<%--          <span>Manage Issue</span></a>--%>
+<%--      </li>--%>
+
+<%--      <!-- Nav Item - Tables -->--%>
+<%--      <li class="nav-item">--%>
+<%--        <a class="nav-link" href="#">--%>
+<%--          <i class="fas fa-fw fa-table"></i>--%>
+<%--          <span>Download Backup File</span></a>--%>
+<%--      </li>--%>
 
       <!-- Divider -->
       <hr class="sidebar-divider d-none d-md-block">
@@ -263,7 +267,7 @@
                   </div>
                   <div class="font-weight-bold">
                     <div class="text-truncate">Hi there! I am wondering if you can help me with a problem I've been having.</div>
-                    <div class="small text-gray-500">Emily Fowler Â· 58m</div>
+                    <div class="small text-gray-500">Emily Fowler · 58m</div>
                   </div>
                 </a>
                 <a class="dropdown-item d-flex align-items-center" href="#">
@@ -273,7 +277,7 @@
                   </div>
                   <div>
                     <div class="text-truncate">I have the photos that you ordered last month, how would you like them sent to you?</div>
-                    <div class="small text-gray-500">Jae Chun Â· 1d</div>
+                    <div class="small text-gray-500">Jae Chun · 1d</div>
                   </div>
                 </a>
                 <a class="dropdown-item d-flex align-items-center" href="#">
@@ -283,7 +287,7 @@
                   </div>
                   <div>
                     <div class="text-truncate">Last month's report looks great, I am very happy with the progress so far, keep up the good work!</div>
-                    <div class="small text-gray-500">Morgan Alvarez Â· 2d</div>
+                    <div class="small text-gray-500">Morgan Alvarez · 2d</div>
                   </div>
                 </a>
                 <a class="dropdown-item d-flex align-items-center" href="#">
@@ -293,7 +297,7 @@
                   </div>
                   <div>
                     <div class="text-truncate">Am I a good boy? The reason I ask is because someone told me that people say this to all dogs, even if they aren't good...</div>
-                    <div class="small text-gray-500">Chicken the Dog Â· 2w</div>
+                    <div class="small text-gray-500">Chicken the Dog · 2w</div>
                   </div>
                 </a>
                 <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
@@ -322,7 +326,7 @@
                  <a class="dropdown-item" href="${pageContext.request.contextPath }/logout">
                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                  Logout</a>
-               
+
               </div>
             </li>
 
