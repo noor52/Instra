@@ -25,6 +25,7 @@ import com.ewsd.util.Constants;
 
 @Controller
 public class UserController {
+
 	@Autowired
 	UserService userService;
 

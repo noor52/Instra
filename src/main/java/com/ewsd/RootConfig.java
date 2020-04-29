@@ -10,7 +10,8 @@ import com.ewsd.config.persistence.HibernateConfig;
 @ComponentScan(basePackages = {
 		"com.ewsd.service",
 		"com.ewsd.config.persistence",
-		"com.ewsd.config.security" })
+		"com.ewsd.config.security",
+		"com.ewsd.util"})
 public class RootConfig {
 	@Bean
 	GlobalExceptionHandler globalExceptionHandler() {
@@ -24,5 +25,6 @@ public class RootConfig {
 	@Bean
 	PasswordEncoder passwordEncoder() {
 	   return new BCryptPasswordEncoder();
+
 	}
 }
