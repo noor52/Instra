@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ewsd:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ewsd</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ewsd-1.war">
+      <element id="artifact" artifact-name="ewsd:war exploded" />
+    </root>
+  </artifact>
+</component>
